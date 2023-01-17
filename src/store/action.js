@@ -1,4 +1,4 @@
-import Service from '../components/Service/Service'
+import Service from '.././Service/Service'
 import {
   SORT_BY_CHEAPEST,
   SORT_BY_TIME,

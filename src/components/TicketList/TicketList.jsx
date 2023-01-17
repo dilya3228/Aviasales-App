@@ -5,7 +5,7 @@ import Loader from '../Lodaer/Lodaer'
 import { useEffect, React } from 'react'
 import { connect } from 'react-redux'
 import { AlertFilter, ErrorDate } from '../AlertAttention/AlertAttention'
-import { sortByTab } from '../Format/Format'
+import { sortByTab } from '../../assets/Format'
 import classes from './TicketList.module.scss'
 
 const TicketList = (store) => {

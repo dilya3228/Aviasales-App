@@ -16,7 +16,7 @@ const Ticket = ({ elem }) => {
     if (transfer >= 4) form += textForms[2]
     if (transfer > 1 && transfer <= 4) form += textForms[1]
     if (transfer === 1) form += textForms[0]
-    return transfer ? `${transfer} ${form}` : ' '
+    return transfer ? `${transfer} ${form}` : 'Нет пересадок'
   }
 
   const transferTimeFormat = (data, duration) => {
